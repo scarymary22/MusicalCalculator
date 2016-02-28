@@ -16,6 +16,15 @@ class ViewController: UIViewController {
     // this variable keeps track of the last opertation that was pressed.
     var lastoperation: String = "="
     
+    // this variable keeps track of the first number(s) entered.
+    var register1: String = ""
+    
+    // this variable keeps track of the second number(s) entered.
+    var register2: String = ""
+    
+    //
+    var numberpressed: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,120 +38,120 @@ class ViewController: UIViewController {
     @IBAction func onePressed(theButton: UIButton) {
         // This is what will happen when the one button is pressed
         print("onePressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
 
     @IBAction func twoPressed(theButton: UIButton) {
         // This is what will happen when the two button is pressed
         print("twoPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
 
     @IBAction func threePressed(theButton: UIButton) {
         // This is what will happen when the three button is pressed
         print("threePressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
     
     @IBAction func fourPressed(theButton: UIButton) {
         // This is what will happen when the four button is pressed
         print("fourPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
 
     @IBAction func fivePressed(theButton: UIButton) {
         // This is what will happen when the five button is pressed
         print("fivePressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
 
     @IBAction func sixPressed(theButton: UIButton) {
         // This is what will happen when the six button is pressed
         print("sixPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
     
     @IBAction func sevenPressed(theButton: UIButton) {
         // This is what will happen when the seven button is pressed
         print("sevenPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
    
     @IBAction func eightPressed(theButton: UIButton) {
         // This is what will happen when the eight button is pressed
         print("eightPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
     
     @IBAction func ninePressed(theButton: UIButton) {
         // This is what will happen when the nine button is pressed
         print("ninePressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
     
     @IBAction func zeroPressed(theButton: UIButton) {
         // This is what will happen when the zero button is pressed
         print("zeroPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
+        if(numberpressed) {
+            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
         }
         else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+            displayField?.text = theButton.titleLabel?.text
+            numberpressed = true
         }
     }
     
@@ -151,7 +160,6 @@ class ViewController: UIViewController {
         print("decimalPressed")
         if(lastoperation == "=") {
             displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
         }
         else {
             displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
@@ -161,25 +169,23 @@ class ViewController: UIViewController {
     @IBAction func equalPressed(theButton: UIButton) {
         // This is what will happen when the equal button is pressed
         print("equalPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
-        }
-        else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
+        if (lastoperation == "+") {
+            register2 = (displayField?.text)!
+            var result: Int = 0
+            let firstNumber: Int = Int(register1)!
+            let secondNumber: Int = Int(register2)!
+            result = firstNumber + secondNumber
+            displayField?.text = String(result)
         }
     }
     
     @IBAction func plusPressed(theButton: UIButton) {
         // This is what will happen when the plus button is pressed
         print("plusPressed")
-        if(lastoperation == "=") {
-            displayField?.text = theButton.titleLabel?.text
-            lastoperation = (theButton.titleLabel?.text)!
-        }
-        else {
-            displayField?.text = (displayField?.text)! + (theButton.titleLabel?.text)!
-        }
+        register1 = (displayField?.text)!
+        lastoperation = "+"
+        displayField?.text = ""
+        numberpressed = false
     }
     
     @IBAction func minusPressed(theButton: UIButton) {
