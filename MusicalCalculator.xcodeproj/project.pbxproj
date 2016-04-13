@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057E1FB81CBAB60B00021D5A /* AflatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB01CBAB60B00021D5A /* AflatLow.m4a */; };
+		057E1FB91CBAB60B00021D5A /* AflatMid1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB11CBAB60B00021D5A /* AflatMid1.m4a */; };
+		057E1FBA1CBAB60B00021D5A /* BflatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB21CBAB60B00021D5A /* BflatLow.m4a */; };
+		057E1FBB1CBAB60B00021D5A /* CnatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB31CBAB60B00021D5A /* CnatLow.m4a */; };
+		057E1FBC1CBAB60B00021D5A /* DflatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB41CBAB60B00021D5A /* DflatLow.m4a */; };
+		057E1FBD1CBAB60B00021D5A /* EflatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB51CBAB60B00021D5A /* EflatLow.m4a */; };
+		057E1FBE1CBAB60B00021D5A /* FnatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB61CBAB60B00021D5A /* FnatLow.m4a */; };
+		057E1FBF1CBAB60B00021D5A /* GnatLow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FB71CBAB60B00021D5A /* GnatLow.m4a */; };
+		057E1FC71CBAB62A00021D5A /* AflatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC01CBAB62A00021D5A /* AflatUp.m4a */; };
+		057E1FC81CBAB62A00021D5A /* BflatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC11CBAB62A00021D5A /* BflatUp.m4a */; };
+		057E1FC91CBAB62A00021D5A /* CnatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC21CBAB62A00021D5A /* CnatUp.m4a */; };
+		057E1FCA1CBAB62A00021D5A /* DflatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC31CBAB62A00021D5A /* DflatUp.m4a */; };
+		057E1FCB1CBAB62A00021D5A /* EflatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC41CBAB62A00021D5A /* EflatUp.m4a */; };
+		057E1FCC1CBAB62A00021D5A /* FnatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC51CBAB62A00021D5A /* FnatUp.m4a */; };
+		057E1FCD1CBAB62A00021D5A /* GnatUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 057E1FC61CBAB62A00021D5A /* GnatUp.m4a */; };
 		05D502FA1C66A745003A516F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D502F91C66A745003A516F /* AppDelegate.swift */; };
 		05D502FC1C66A745003A516F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D502FB1C66A745003A516F /* ViewController.swift */; };
 		05D502FF1C66A745003A516F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D502FD1C66A745003A516F /* Main.storyboard */; };
@@ -34,6 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057E1FB01CBAB60B00021D5A /* AflatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AflatLow.m4a; path = ../../../../notes/Lower/AflatLow.m4a; sourceTree = "<group>"; };
+		057E1FB11CBAB60B00021D5A /* AflatMid1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AflatMid1.m4a; path = ../../../../notes/Lower/AflatMid1.m4a; sourceTree = "<group>"; };
+		057E1FB21CBAB60B00021D5A /* BflatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = BflatLow.m4a; path = ../../../../notes/Lower/BflatLow.m4a; sourceTree = "<group>"; };
+		057E1FB31CBAB60B00021D5A /* CnatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CnatLow.m4a; path = ../../../../notes/Lower/CnatLow.m4a; sourceTree = "<group>"; };
+		057E1FB41CBAB60B00021D5A /* DflatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = DflatLow.m4a; path = ../../../../notes/Lower/DflatLow.m4a; sourceTree = "<group>"; };
+		057E1FB51CBAB60B00021D5A /* EflatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = EflatLow.m4a; path = ../../../../notes/Lower/EflatLow.m4a; sourceTree = "<group>"; };
+		057E1FB61CBAB60B00021D5A /* FnatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = FnatLow.m4a; path = ../../../../notes/Lower/FnatLow.m4a; sourceTree = "<group>"; };
+		057E1FB71CBAB60B00021D5A /* GnatLow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = GnatLow.m4a; path = ../../../../notes/Lower/GnatLow.m4a; sourceTree = "<group>"; };
+		057E1FC01CBAB62A00021D5A /* AflatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AflatUp.m4a; path = ../../../../notes/Upper/AflatUp.m4a; sourceTree = "<group>"; };
+		057E1FC11CBAB62A00021D5A /* BflatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = BflatUp.m4a; path = ../../../../notes/Upper/BflatUp.m4a; sourceTree = "<group>"; };
+		057E1FC21CBAB62A00021D5A /* CnatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CnatUp.m4a; path = ../../../../notes/Upper/CnatUp.m4a; sourceTree = "<group>"; };
+		057E1FC31CBAB62A00021D5A /* DflatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = DflatUp.m4a; path = ../../../../notes/Upper/DflatUp.m4a; sourceTree = "<group>"; };
+		057E1FC41CBAB62A00021D5A /* EflatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = EflatUp.m4a; path = ../../../../notes/Upper/EflatUp.m4a; sourceTree = "<group>"; };
+		057E1FC51CBAB62A00021D5A /* FnatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = FnatUp.m4a; path = ../../../../notes/Upper/FnatUp.m4a; sourceTree = "<group>"; };
+		057E1FC61CBAB62A00021D5A /* GnatUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = GnatUp.m4a; path = ../../../../notes/Upper/GnatUp.m4a; sourceTree = "<group>"; };
 		05D502F61C66A745003A516F /* MusicalCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D502F91C66A745003A516F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D502FB1C66A745003A516F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +129,21 @@
 			children = (
 				05D502F91C66A745003A516F /* AppDelegate.swift */,
 				05D502FB1C66A745003A516F /* ViewController.swift */,
+				057E1FC01CBAB62A00021D5A /* AflatUp.m4a */,
+				057E1FC11CBAB62A00021D5A /* BflatUp.m4a */,
+				057E1FC21CBAB62A00021D5A /* CnatUp.m4a */,
+				057E1FC31CBAB62A00021D5A /* DflatUp.m4a */,
+				057E1FC41CBAB62A00021D5A /* EflatUp.m4a */,
+				057E1FC51CBAB62A00021D5A /* FnatUp.m4a */,
+				057E1FC61CBAB62A00021D5A /* GnatUp.m4a */,
+				057E1FB01CBAB60B00021D5A /* AflatLow.m4a */,
+				057E1FB11CBAB60B00021D5A /* AflatMid1.m4a */,
+				057E1FB21CBAB60B00021D5A /* BflatLow.m4a */,
+				057E1FB31CBAB60B00021D5A /* CnatLow.m4a */,
+				057E1FB41CBAB60B00021D5A /* DflatLow.m4a */,
+				057E1FB51CBAB60B00021D5A /* EflatLow.m4a */,
+				057E1FB61CBAB60B00021D5A /* FnatLow.m4a */,
+				057E1FB71CBAB60B00021D5A /* GnatLow.m4a */,
 				05D502FD1C66A745003A516F /* Main.storyboard */,
 				05D503001C66A745003A516F /* Assets.xcassets */,
 				05D503021C66A745003A516F /* LaunchScreen.storyboard */,
@@ -230,8 +275,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D503041C66A745003A516F /* LaunchScreen.storyboard in Resources */,
+				057E1FBC1CBAB60B00021D5A /* DflatLow.m4a in Resources */,
 				05D503011C66A745003A516F /* Assets.xcassets in Resources */,
+				057E1FCC1CBAB62A00021D5A /* FnatUp.m4a in Resources */,
+				057E1FC91CBAB62A00021D5A /* CnatUp.m4a in Resources */,
+				057E1FCD1CBAB62A00021D5A /* GnatUp.m4a in Resources */,
+				057E1FBB1CBAB60B00021D5A /* CnatLow.m4a in Resources */,
+				057E1FC71CBAB62A00021D5A /* AflatUp.m4a in Resources */,
+				057E1FB81CBAB60B00021D5A /* AflatLow.m4a in Resources */,
+				057E1FBF1CBAB60B00021D5A /* GnatLow.m4a in Resources */,
+				057E1FBA1CBAB60B00021D5A /* BflatLow.m4a in Resources */,
+				057E1FB91CBAB60B00021D5A /* AflatMid1.m4a in Resources */,
+				057E1FC81CBAB62A00021D5A /* BflatUp.m4a in Resources */,
 				05D502FF1C66A745003A516F /* Main.storyboard in Resources */,
+				057E1FCB1CBAB62A00021D5A /* EflatUp.m4a in Resources */,
+				057E1FBE1CBAB60B00021D5A /* FnatLow.m4a in Resources */,
+				057E1FBD1CBAB60B00021D5A /* EflatLow.m4a in Resources */,
+				057E1FCA1CBAB62A00021D5A /* DflatUp.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +544,7 @@
 				05D503201C66A745003A516F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D503211C66A745003A516F /* Build configuration list for PBXNativeTarget "MusicalCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +553,7 @@
 				05D503231C66A745003A516F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D503241C66A745003A516F /* Build configuration list for PBXNativeTarget "MusicalCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +562,7 @@
 				05D503261C66A745003A516F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
